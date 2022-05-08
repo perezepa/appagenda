@@ -1,0 +1,133 @@
+/* Formatear Valores */
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    font-family: sans-serif;
+}
+
+/* box-sizing: Permite se aplique un Box-sizing en todos los elementos, sin que el padding afecte el tamaño de un elemento */
+html {
+    box-sizing: border-box;
+}
+  
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+body {
+    text-align: center;
+    margin: 0px; /* Para Resetear los Bordes y el Padding por defecto */
+    padding: 0px;
+
+    /* FUENTES */
+    font-family: 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-font-smoothing: antialiased;
+    -webkit-osx-font-smoothing: antialiased;
+}
+
+/* Contenedor */
+.contenedor {  /* https://html-color-codes.info/codigos-de-colores-hexadecimales/ */ 
+    width: 800px;
+    height: 500px;
+    background-color: #A9BCF5;
+    margin: 40px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.boxHeader {
+    color: #EFF8FB;
+    margin-top: 10px;
+}
+
+.boxForm {
+    width: 80%;
+    height: 50%;
+    margin: 10px auto;
+}
+.boxResult {
+    width: 80%;
+    height: 30%;
+    background-color: #2E2EFE;
+    margin: 5px auto;
+    padding-top: 5px;
+}
+
+.resultHeader {
+    color: #EFF8FB;
+    font-size: 16px;
+}
+
+.inputType {
+    background-color: #EFF8FB;
+    border-color: #A9BCF5;
+    height: 30px;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.boxBtns {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    height: 30px;
+    margin-top: 10px;
+}
+
+.btnLeft {
+    width: 70%;
+    display: flex;
+}
+
+.btnRight {
+    width: 30%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.btnSave {
+    background-color: #0B610B;
+    color: #EFF8FB;
+    width: 100px;
+    height: 28px;
+    border-radius: 8px;
+    border-color: #0B610B;
+    font-weight: bolder;
+    margin-right: 10px;
+}
+
+.btnSearch {
+    background-color: #0B0B61;
+    color: #EFF8FB;
+    width: 100px;
+    height: 28px;
+    border-radius: 8px;
+    border-color: #0B0B61;
+    font-weight: bolder;
+    margin-right: 10px;
+}
+
+.btnUpdate {
+    background-color: #B45F04;
+    color: #EFF8FB;
+    width: 100px;
+    height: 28px;
+    border-radius: 8px;
+    border-color: #B45F04;
+    font-weight: bolder;
+}
+
+.btnDelete {
+    background-color: #DF0101;
+    color: #EFF8FB;
+    width: 100px;
+    height: 28px;
+    border-radius: 8px;
+    border-color: #DF0101;
+    font-weight: bolder;
+}
